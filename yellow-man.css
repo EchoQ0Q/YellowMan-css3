@@ -6,7 +6,7 @@
 #head .clothes{
 	position: absolute;
 	top: 430px;
-	right: 88px;
+	left: -12px;
 	
 }
 #head .head-up-left{
@@ -52,6 +52,7 @@
 	border-radius: 40px 3px 3px 3px;
 	border: 1px solid #000;
 	-moz-transform:rotate(-1deg);
+	-webkit-transform:rotate(-1deg);
 
 }
 #head .head-down .sole-left{
@@ -63,11 +64,13 @@
 	left: 76px;
 	border-radius: 2px;
 	-moz-transform:rotate(-1deg);
+	-webkit-transform:rotate(-1deg);
 
 }
 #head .head-down .shoe-right-animation{
 	-moz-transform:rotate(8deg);
-	top: 14px;
+	-webkit-transform:rotate(8deg);
+    top: 14px;
 	position: absolute;
 	right: 77px;
 }
