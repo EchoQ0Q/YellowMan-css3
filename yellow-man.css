@@ -3,6 +3,18 @@
   padding:0;
   position: relative;
 }
+#head .hair{
+	position: absolute;
+	top: -8px;
+	z-index:2;
+	left:-301px;
+
+}
+#head .hair img{
+    width:980px;
+	height:900px;
+	
+}
 #head .clothes{
 	position: absolute;
 	top: 87px;
